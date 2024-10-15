@@ -15,7 +15,7 @@ function validateForm() {
 
     // Name validation
     if (name === "") {
-        errorMessage.textContent = "Proszę podać swoje imię.";
+        errorMessage .textContent = "Proszę podać swoje imię.";
         errorMessage.style.display = 'block';
         return false;
     }
